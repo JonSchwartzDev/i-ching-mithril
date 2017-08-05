@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+}
+
+/* for phones */
+[class*="col-"] {
+    width: 100%;
+}
+
+div.trigram {
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    margin: auto;
+    border: solid 1px #e7dada;
+}
+
+div.tao {
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    margin: auto;
+    background-image: url('images/Tao.png');
+}
+
+div.iching {
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    margin: auto;
+    background-image: url('images/TaoAndEightGates.jpg');
+}
+
+div.nextbutton {
+    font-size: 5em;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-150%, -50%);
+    cursor: pointer;
+}
+
+#sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-2 {
+        width: 400px;
+    }
+
+    div.trigram {
+        height: 200px;
+        width: 200px;
+    }
+
+    div.tao {
+        height: 300px;
+        width: 300px;
+    }
+
+    div.iching {
+        height: 300px;
+        width: 300px;
+    }
+
+    #sidenav {
+        width: 150px;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+div.h2 {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+div.h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+div.spacedline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+div.spacedline.narrow {
+    width: 300px;
+}
+
+div.line {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+div.trigram.Earth {
+    background-image: url('images/Earth.png');
+}
+
+div.trigram.Fire {
+    background-image: url('images/Fire.png');
+}
+
+div.trigram.Heaven {
+    background-image: url('images/Heaven.png');
+}
+
+div.trigram.Lake {
+    background-image: url('images/Lake.png');
+}
+
+div.trigram.Mountain {
+    background-image: url('images/Mountain.png');
+}
+
+div.trigram.Thunder {
+    background-image: url('images/Thunder.png');
+}
+
+div.trigram.Water {
+    background-image: url('images/Water.png');
+}
+
+div.trigram.Wind {
+    background-image: url('images/Wind.png');
+}
+
+#sidenavbutton {
+    height: 30px;
+    width: 30px;
+    background-image: url('images/Heaven.png');
+    background-size: contain;
+    cursor: pointer;
+}
+
+/* The navigation menu links */
+.sidenavmenuitem {
+    padding: 4px 25px 4px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #c1c1c1;
+    display: block;
+    text-align: right;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenavmenuitem.clickable:hover, .offcanvas a:focus {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* The navigation menu links */
+.sidenavmenuitem.header {
+    text-align: left;
+}
+
+#randombutton {
+    height: 30px;
+    width: 30px;
+    background-image: url('images/brushtao.jpg');
+    background-size: contain;
+    cursor: pointer;
+    position: absolute;
+    left: 100%;
+    top: 10px;
+    transform: translate(-120%, 0%);
+}

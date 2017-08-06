@@ -5,9 +5,11 @@ binary logic from oh so long ago, and the opportunity for very nice-looking imag
 size. 
 
 The web app works well on phones, tablets and PC browser, with great, snappy interactions because the 
-data is all local in the SPA. *Total* size in less than 250kb: 119kb of images, 46 kb of mithril.js library 
-(a less-known but smaller, faster alternative to Angular or React or Vue), and 50kb of JS and CSS (which 
-is mainly the data for the book).
+data is all local in the SPA. *Total* size in less than 220kb: 
+
+- 119kb of images, 
+- 46 kb of mithril.js library (a less-known but smaller, faster alternative to Angular or React or Vue)
+- 50kb of JS and CSS (which is mainly the data for the book)
 
 It's hosted and running at http://iching.blackoak.io
 

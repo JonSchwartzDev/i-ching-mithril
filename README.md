@@ -8,7 +8,7 @@ The web app works well on phones, tablets and PC browser, with great, snappy int
 data is all local in the SPA. *Total* size in less than 220kb: 
 
 - 119kb of images, 
-- 46 kb of mithril.js library (a less-known but smaller, faster alternative to Angular or React or Vue)
+- 46kb of mithril.js library (a less-known but smaller, faster alternative to Angular or React or Vue)
 - 50kb of JS and CSS (which is mainly the data for the book)
 
 It's hosted and running at http://iching.blackoak.io

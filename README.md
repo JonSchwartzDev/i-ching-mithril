@@ -9,6 +9,6 @@ The web app works well on phones, tablets and PC browser, with great, snappy int
 
 It's hosted and running at http://iching.blackoak.io
 
-I finally got around to an ASP.NET Core MVC version of the app, at: https://github.com/JonSchwartzDev/i-ching-aspmvc. Back and forths to the server make that inferior to this SPA version, but I intend to experiment with Blazor and / or Xamarin to run native versions of the ASP MVC version, after Core 6.0 releases in November. At that point the .NET Core will run on iOS, Android, Mac, Linux and Windows. 
+I finally got around to an ASP.NET Core MVC version of the app, at: https://github.com/JonSchwartzDev/i-ching-aspmvc. Back and forths to the server make that inferior to this SPA version, but I intend to experiment with Blazor and Xamarin to run native versions of the ASP MVC version, after Core 6.0 releases in November. At that point the .NET Core will run on iOS, Android, Mac, Linux and Windows. 
 
 I'm working next on a React version, which I will also take to React Native.

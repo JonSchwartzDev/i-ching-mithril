@@ -14,4 +14,4 @@ I finally got around to an ASP.NET Core MVC version of the app, at: https://gith
 I'm working next on a React version, which I will also take to React Native.
 
 Comparison of code for the three versions, with the UI they implement:
-https://github.com/JonSchwartzDev/i-ching-mithril/blob/master/iChing%20hexagram%20in%20three%20versions.png 
+![Comparison of code for the three versions, with the UI they implement](https://github.com/JonSchwartzDev/i-ching-mithril/blob/master/iChing%20hexagram%20in%20three%20versions.png)

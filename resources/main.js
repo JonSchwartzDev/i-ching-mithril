@@ -3,9 +3,7 @@
 var iChingSummary = [
     "The Eight Gates are elements of the Tao, representing fundamental energies or concepts: Earth, Mountain, Water, Wind, Thunder, Fire, Lake and Heaven. Each is represented by a trigram as shown above: three closed or open lines.",
     "The I Ching, or Classic of Changes, is an ancient Chinese divination text and the oldest of the Chinese classics, at 3000 years old.",
-    "The hexagrams used for I Ching divination are a combination of two trigrams; this yields 64 possible combinations. Each combination is named, based on its trigams, and a 'judgment' is offered: a divinatory meaning. An 'image' is also offered, which tends to be more poetic and descriptive than judgmental or divinatory.",
-    "The judgments and visions presented in the I Ching amply demonstrate the beauty and wisdom humans are able to bring to our world and our lives.",
-    "It's interesting and encouraging to consider that their beauty and wisdom were our provenance 3000 and more years ago."
+    "The hexagrams used for I Ching divination are a combination of two trigrams; this yields 64 possible combinations. Each combination is named, based on its trigams, and a 'judgment' is offered: a divinatory meaning. An 'image' is also offered, which tends to be more poetic and descriptive than judgmental or divinatory."
 ];
 
 var TaoSummary = [

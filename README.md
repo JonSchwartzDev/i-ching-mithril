@@ -7,7 +7,7 @@ The web app works well on phones, tablets and PC browser, with great, snappy int
 - 46kb of mithril.js library (a less-known but smaller, faster alternative to Angular or React or Vue)
 - 50kb of JS and CSS (which is mainly the data for the book)
 
-It's hosted and running at http://iching.blackoak.io
+It's hosted and running at http://iching-mithril.blackoak.io
 
 I finally got around to an ASP.NET Core MVC version of the app, at: https://github.com/JonSchwartzDev/i-ching-aspmvc. Back and forths to the server make that inferior to this SPA version, but I intend to experiment with Blazor and Xamarin to run native versions of the ASP MVC version, after Core 6.0 releases in November. At that point the .NET Core will run on iOS, Android, Mac, Linux and Windows. 
 
